@@ -1,0 +1,74 @@
+@use "./color" as *;
+@import url('http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900%7CRoboto+Slab:700,300&amp;subset=latin,cyrillic');
+
+@mixin RobotoB13{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color:$colorText;
+}
+@mixin RobotoBA16{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color:$colorTextAccent;
+}
+@mixin RobotoB17{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    color:$colorText;
+}
+@mixin RobotoB28{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #3a3c40;
+}
+
+
+@mixin RobotoB60{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0.6px;
+    line-height: 1;
+    color: $colorTextSectionMain;
+}
+@mixin RobotoB100{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    color: #3a3c40;
+}
+@mixin RobotoR13{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #747780;
+}
+@mixin RobotoR16{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #747780;
+}
+@mixin RobotoRA17{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: $colorTextAccent;
+}
+@mixin RobotoL18{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color:$colorText;
+}
+@mixin RobotoR60{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    color: $colorTextSectionMain;
+}
