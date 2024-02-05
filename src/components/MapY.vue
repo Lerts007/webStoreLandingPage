@@ -20,7 +20,7 @@ export default {
             center: [37.6522845, 55.726829],
             zoom: 16
           },
-          behaviors: [],
+          behaviors: ['drag'],
         }
     );
     
