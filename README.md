@@ -1,25 +1,8 @@
 # webstore
 
-Обычный LandingPage с подключенным API YandexMap
+![](https://raw.githubusercontent.com/Lerts007/Portfolio/main/img/project/webStore.png)
 
-## Project setup
+## Цель
 
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Создать LandingPage по макету из Figma
+- Подключить API YandexMap
